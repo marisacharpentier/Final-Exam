@@ -24,6 +24,14 @@ img {
     box-sizing: border-box;
   }
 }
+@media(max-width: 500px) {
+  .left-column {
+    float: none;
+  }
+  .right-column {
+    float: none;
+  }
+}
 a {
   color: black;
 }
