@@ -1,0 +1,26 @@
+.container {
+  margin: 0 auto;
+  width: 75%;
+  background-color: #D3D3D3;
+  max-width: 700px;
+  overflow: auto;
+}
+body {
+  background-color: #9932CC;
+}
+img {
+  max-width: 700px;
+}
+@media(min-width: 650px) {
+  .left-column {
+    float: left;
+    width: 66%;
+  }
+  .right-column {
+    float: right;
+    width: 34%;
+  }
+  * {
+    box-sizing: border-box;
+  }
+}
