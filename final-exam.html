@@ -23,6 +23,7 @@
         <p>Layers of dark chocolate ganache and white chocolate cream help put this cake over the top.</p>
         <h3><a href="http://www.epicurious.com/recipes/food/views/cinnamon-bun-bundt-cake-51196640">Cinnamon Bun Bundt Cake</a></h3>
         <p>Of course, any leftovers of this cake are a welcome treat at breakfast the next morning.</p>
+        <p class="button">More recipes</p>
         <div id="more-recipes" style="display:none;">
           <h3><a href="http://www.epicurious.com/recipes/food/views/cranberry-spice-cake-368253">Cranberry Spice Cake</a></h3>
           <p>An easy lemon glaze adds an extra layer of brightness to this seasonal cake.</p>
@@ -62,4 +63,5 @@ function reHide(){
   var second = $('div#more-recipes').hide();
   return second;
 }
+$('p.button').on('click', unHide);
 </script>

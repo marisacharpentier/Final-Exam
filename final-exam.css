@@ -48,3 +48,8 @@ h1 {
   padding-bottom: 20px;
   margin-bottom: 35px;
 }
+.button {
+  padding: 10px;
+  background: yellow;
+  width: 15%;
+}
